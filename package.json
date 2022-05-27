@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "solc": "^0.8.14-fixed"
+    "ganache-cli": "^6.12.2",
+    "jest": "^28.1.0",
+    "solc": "^0.8.14-fixed",
+    "web3": "^1.7.3"
   }
 }
