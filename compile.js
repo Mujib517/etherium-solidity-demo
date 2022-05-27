@@ -22,5 +22,4 @@ var input = {
 }
 
 const response = JSON.parse(solc.compile(JSON.stringify(input)));
-console.log(response.contracts);
-module.exports = response.contracts.inbox;
+module.exports = response.contracts.inbox.Inbox;
